@@ -1,0 +1,107 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hydrating Face Cream",
+      "price": 24.99,
+      "reviews": [
+        {
+          "user": "Emma",
+          "rating": 5,
+          "comment": "Amazing moisturizer! My skin feels so soft."
+        },
+        {
+          "user": "Sophia",
+          "rating": 4,
+          "comment": "Good hydration but a bit pricey."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Vitamin C Serum",
+      "price": 19.99,
+      "reviews": [
+        {
+          "user": "Olivia",
+          "rating": 5,
+          "comment": "Brightened my skin within days!"
+        },
+        {
+          "user": "Mia",
+          "rating": 3,
+          "comment": "Didn't see much difference yet."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Aloe Vera Gel",
+      "price": 12.5,
+      "reviews": [
+        {
+          "user": "Noah",
+          "rating": 5,
+          "comment": "Perfect for soothing sunburns!"
+        },
+        {
+          "user": "Liam",
+          "rating": 4,
+          "comment": "Great product but the scent is strong."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Collagen Night Mask",
+      "price": 29.99,
+      "reviews": [
+        {
+          "user": "Ava",
+          "rating": 5,
+          "comment": "Wake up with glowing skin!"
+        },
+        {
+          "user": "Charlotte",
+          "rating": 4,
+          "comment": "Very moisturizing but slightly sticky."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Organic Rose Water Toner",
+      "price": 15.99,
+      "reviews": [
+        {
+          "user": "Amelia",
+          "rating": 5,
+          "comment": "Refreshing and smells divine!"
+        },
+        {
+          "user": "Isabella",
+          "rating": 4,
+          "comment": "Nice toner but the bottle could be bigger."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Vitanin E serum",
+      "price": 635,
+      "description": "This is my Vitamin E prfect",
+      "reviews": [
+        {
+          "user": "ItsQueenM",
+          "comment": "Love!",
+          "rating": 5
+        },
+        {
+          "user": "Anonnymous",
+          "comment": "its ok",
+          "rating": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+/* מגדיר את התצוגה של דף הפוסט */
+.post-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+/* עיצוב לכרטיס של הפוסט */
+.post-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* עיצוב לכותרת */
+.post-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* עיצוב לגוף הפוסט */
+.post-body {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* עיצוב לקישור חזרה */
+.back-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #ff758c;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* שינוי צבע בהעבר עכבר */
+.back-link:hover {
+    background: #ff5252;
+}
+
+/* עיצוב להודעת שגיאה */
+.error-message {
+    text-align: center;
+    font-size: 1.8rem;
+    color: red;
+    margin-top: 50px;
+}
+
+/* עיצוב כללי ללינקים ככפתורים */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+}
+
+/* כפתור מחיקה - אדום */
+.btn-delete {
+    background: #e74c3c;
+}
+
+.btn-delete:hover {
+    background: #c0392b;
+}
+
+/* כפתור עריכה - כחול */
+.btn-edit {
+    background: #3498db;
+}
+
+.btn-edit:hover {
+    background: #2980b9;
+}
+
+/* כפתור הוספת ביקורת - ירוק */
+.btn-add-review {
+    background: #2ecc71;
+}
+
+.btn-add-review:hover {
+    background: #27ae60;
+}
+
+
+/* אנימציה להופעת הכרטיס */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

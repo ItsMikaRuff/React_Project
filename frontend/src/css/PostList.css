@@ -1,0 +1,155 @@
+/* עיצוב לדף הפוסטים */
+.post-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+/* עיצוב לכותרת של הדף */
+.list-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #ff758c; /* קו תחתון עדין */
+    padding-bottom: 10px;
+}
+
+/* עיצוב לרשימה כרטיסים (פוסטים) */
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 80%;
+}
+
+/* עיצוב לכרטיסי פוסט */
+.post-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+    margin:10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* שינוי במעבר עם העכבר */
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+/* עיצוב לטקסט בתוך כרטיס הפוסט */
+.post-card h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* טקסט קטן יותר בתוך כרטיס */
+.post-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* עיצוב להודעת טעינה ושגיאה */
+.loading, .error {
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* עיצוב כללי ללינקים ככפתורים */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+}
+
+/*עיצוב להוספת פוסט  */
+.btn-add-post-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #ff758c;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* שינוי צבע בהעבר עכבר */
+.btn-add-post-link:hover {
+    background: #ff5252;
+}
+
+/* עיצוב לשורת החיפוש */
+.search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #5e9ed6; /* צבע הגבול בעת מיקוד */
+    box-shadow: 0 0 5px rgba(94, 158, 214, 0.4); /* הצללה עדינה */
+}
+
+.search-input::placeholder {
+    color: #bbb; /* צבע טקסט placeholder */
+    font-style: italic;
+}
+
+/* עיצוב לכפתור חיפוש אם תרצה להוסיף אחד */
+.search-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #5e9ed6;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #4b8bb5;
+}
+
+/* מיקום של שורת החיפוש */
+.search-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

@@ -1,0 +1,103 @@
+/* מגדיר את התצוגה של דף הוספת מוצר */
+.edit-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    padding: 20px;
+}
+
+/* עיצוב לכותרת */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* עיצוב לטופס הוספת מוצר */
+.edit-product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* עיצוב לתוויות (labels) */
+.add-product-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* עיצוב לשדות קלט ולטקסטארה */
+.add-product-form input,
+.add-product-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* עיצוב כללי לכפתורים */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+}
+
+/* כפתור הוספת מוצר - ירוק */
+.btn-add {
+    background: #2ecc71;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background: #27ae60;
+}
+
+/* עיצוב ללינק חזרה */
+.back-link {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+    background: #ff758c; /* צבע ורוד */
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.back-link:hover {
+    background: #ff5252;
+}
+
+
+/* עיצוב להודעת שגיאה */
+.error-message {
+    text-align: center;
+    font-size: 1.8rem;
+    color: red;
+    margin-top: 50px;
+}
+
+.btn:disabled {
+    background: gray;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
